@@ -1,0 +1,16 @@
+<archetype>
+  <id>base-archetype</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+    <source>src/main/java/PropertiesLoader.java</source>
+  </sources>
+  <resources>
+    <resource>src/main/resources/app.properties</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+  <testResources>
+    <testResource>src/test/resources/app.properties</testResource>
+  </testResources>
+</archetype>
