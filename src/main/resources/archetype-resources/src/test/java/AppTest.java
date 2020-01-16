@@ -1,19 +1,15 @@
 package ${groupId};
 
-import org.junit.Test;
-import org.junit.Before;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.Matchers.contains;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.*;
 
-/**
- * Unit test for simple App.
- */
 public class AppTest {
     boolean testVal;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         testVal = true;
     }
