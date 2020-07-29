@@ -1,10 +1,10 @@
-package ${groupId};
+package ${package};
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.core.Is.is;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class AppTest {
     boolean testVal;
@@ -15,7 +15,8 @@ public class AppTest {
     }
 
     @Test
+    @DisplayName("SampleTest")
     public void test01() {
-        assertThat(testVal, is(true));
+        assertThat(testVal).isTrue();
     }
 }
