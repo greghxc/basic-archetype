@@ -2,9 +2,9 @@
 
 Convenient archetype with generally used dependencies and structure.
 
-* Lombok
-* Guava
-* JUnit
-* Hamcrest
+* immutables
+* vavr
+* JUnit5
+* assertj
 * SLF4J
 * Logback`
